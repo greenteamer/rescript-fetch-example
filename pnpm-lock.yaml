@@ -1,0 +1,76 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@dzakh/rescript-stdlib': ^1.1.0
+  '@glennsl/rescript-fetch': ^0.1.4
+  dotenv: ^16.0.3
+  gentype: ^4.5.0
+  rescript: ^10.1.2
+  rescript-envsafe: ^1.2.0
+  rescript-struct: ^3.1.0
+
+dependencies:
+  '@dzakh/rescript-stdlib': 1.1.0_rescript@10.1.2
+  '@glennsl/rescript-fetch': 0.1.4
+  dotenv: 16.0.3
+  rescript: 10.1.2
+  rescript-envsafe: 1.2.0_lbksetdukn7bwhouxvf4bo6t5y
+  rescript-struct: 3.1.0_rescript@10.1.2
+
+devDependencies:
+  gentype: 4.5.0
+
+packages:
+
+  /@dzakh/rescript-stdlib/1.1.0_rescript@10.1.2:
+    resolution: {integrity: sha512-bnRtERaoaKBTd9OcPESim8H4EP6lBWvHI4A+DJoxLKKzJKC5BZ/7TKJ77OtAygevPtKkzrGKHT34biI4uAWb6w==}
+    peerDependencies:
+      rescript: 10.1.x
+    dependencies:
+      rescript: 10.1.2
+    dev: false
+
+  /@glennsl/rescript-fetch/0.1.4:
+    resolution: {integrity: sha512-XmCGt1r/iASpaJzuG1LnR8T+MVFolvmo2TI/xxreVjEWbxHRiym6VXLhhmIZrv3Xw1XitU+SHacroawzdsBOew==}
+    dependencies:
+      '@ryyppy/rescript-promise': 2.1.0
+    dev: false
+
+  /@ryyppy/rescript-promise/2.1.0:
+    resolution: {integrity: sha512-+dW6msBrj2Lr2hbEMX+HoWCvN89qVjl94RwbYWJgHQuj8jm/izdPC0YzxgpGoEFdeAEW2sOozoLcYHxT6o5WXQ==}
+    dev: false
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /gentype/4.5.0:
+    resolution: {integrity: sha512-XqHBQPS6Qb2HSgNJAwYRXbQJ4LSvz+MgNvuWnj8bz0teSorsy2kDxA6F1eZx5ft8cnfKAls4uNEgd5uNcPbQDg==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  /rescript-envsafe/1.2.0_lbksetdukn7bwhouxvf4bo6t5y:
+    resolution: {integrity: sha512-rSyWtslWDo6oSgWJWPIjRx4vDHO/66QQ5CMiJvex6hsKiq0henETloYYuEp1A2HhKs39WG2jahSiW/2YEc5byg==}
+    peerDependencies:
+      rescript: 10.1.x
+      rescript-struct: 3.0.x
+    dependencies:
+      rescript: 10.1.2
+      rescript-struct: 3.1.0_rescript@10.1.2
+    dev: false
+
+  /rescript-struct/3.1.0_rescript@10.1.2:
+    resolution: {integrity: sha512-JCDVJ8aX5zYRpk1EM5YVCTMwTHLpmseUErBT4gI0QckvqMrQEBoOzV0gqu+2PL8A0jeoy8BDZJ7saEKsv5y4jQ==}
+    peerDependencies:
+      rescript: 10.1.x
+    dependencies:
+      rescript: 10.1.2
+    dev: false
+
+  /rescript/10.1.2:
+    resolution: {integrity: sha512-PPdhOiN+lwqxQ0qvzHc1KW0TL12LDy2X+qo/JIMIP3bMfiH0vxQH2e/lXuoutWWm04fGQGTv3hWH+gKW3/UyfA==}
+    hasBin: true
+    requiresBuild: true
+    dev: false

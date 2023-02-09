@@ -1,0 +1,26 @@
+{
+  "name": "libraries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "res:build": "rescript",
+    "res:dev": "rescript build -w",
+    "start": "node src/config/DecodeEnv.bs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@dzakh/rescript-stdlib": "^1.1.0",
+    "@glennsl/rescript-fetch": "^0.1.4",
+    "dotenv": "^16.0.3",
+    "rescript": "^10.1.2",
+    "rescript-envsafe": "^1.2.0",
+    "rescript-struct": "^3.1.0"
+  },
+  "devDependencies": {
+    "gentype": "^4.5.0"
+  }
+}
