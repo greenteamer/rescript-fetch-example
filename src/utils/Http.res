@@ -5,9 +5,10 @@ type mode = [#cors | #"no-cors" | #"same-origin" | #navigate]
 type redirect = [#error | #follow | #manual]
 
 type init = {
+  url: string,
+  method?: mothod,
   credentials?: credentials,
   headers?: headers,
-  method?: mothod,
   mode?: mode,
   redirect?: redirect,
 }
@@ -19,7 +20,14 @@ type httpResponse = {
   // json: unit => promise<unknown>,
 }
 
-@module external fetch: (string, init) => promise<Belt.Result.t<httpResponse, unknown>> = "fetch"
+@module
+external axios: init => promise<Belt.Result.t<httpResponse, unknown>> = "axios"
+
+let get = config => {
+  Console.log("start get function")
+  Console.log2("config: ", config)
+  axios(config)
+}
 
 // let httpStruct = S.object(o => {
 //   ok: o->S.field("ok", S.bool()),
